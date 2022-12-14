@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   /*  background-image: url(six.jpg);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover; */
+    background-image: linear-gradient(45deg, rgb(8, 245, 67), rgb(97, 97, 236));
+}
+.menubar{
+    width: 100%;
+    height: 15%;
+    /* background-color: cyan; */
+    justify-content: space-between;
+    display: flex;
+    text-align: center;
+    /* position: fixed; */
+    align-items: center;
+    text-decoration: none;
+    padding: 0 5%;
+}
+.d2{
+    margin-top: 15%;
+    margin-left: 10%;
+    position: absolute;
+    
+}
+.d3 form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+.d3 form input:first-child{
+    display: inline-block;
+    width: 100%;
+    border-radius: 30px;
+    background-color: #fff;
+    padding: 14px 130px 14px 15px;
+}
+.d3 form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: orange;
+    box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585 ;
+    top: 6px;
+    right: 6px;
+}
+.d4{
+    width: 100%;
+    height: 80%;
+    background-color: #000;
+    margin-top: 45%;
+    padding: 100px 0px;
+}
+.d5{
+    text-align: center;
+}
+.service{
+    background-color: 101010;
+    padding: 100px 0px;
+}
+.title h2{
+    color: #fff;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.card{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background-color: 191919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative; 
+    overflow: hidden;
+    text-align: center;
+}
+.card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: orange;
+}
+h5{
+    color: #fff;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+.pra p{
+    color: #000;
+    font-size: 15px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+.card .read{
+    width: 20%;
+    height: 20%;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #fff;
+    padding: 9px 22px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: orange;
+    border: none;
+    transition: .4s;
+}
+.card .read:hover{
+    border: 2px solid orange;
+    background-color: transparent;
+}
+.contact-me{
+        width: 100%;
+        height: 390px;
+        background-color: #191919;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+}
+.contact-me p{
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.contact-me .button-two{
+    width: 10%;
+    height: 15%;
+    padding: 1%;
+    border-radius: 30px;
+    cursor: pointer;
+    color: #fff;
+    text-align: center;
+    background-color: orange;
+    border: none;
+}
+.contact-me .button-two:hover{
+    border: 2px solid orange;
+    background-color: transparent;
+}
+.button{
+    width: 10%;
+    height: 40%;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: orange;
+    border: none;
+}
+.butt{
+    width: 10%;
+    height: 20%;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: white ;
+    border: none;
+}
+.butt:hover{
+    border: 2px solid orange;
+    background-color: orange;
+}
+.menubar ul{
+    display: flex;
+    list-style: none;
+}
+.menubar ul li{
+    padding: 30px;
+    position: relative;
+}
+.menubar ul li a{
+    color: var(--color-white);
+    text-decoration: none;
+    font-size: 30px;
+    transition: all 0.5s;
+}
+.menubar ul li a:hover{
+    color: orange;
+}
+.s1{
+    color: orange;
+}
+.s2{
+    color: orange;
+    font-size: 25px;
+}
+.s3{
+    font-size: 50px;
+}
+a{
+    text-decoration: none;
+    font-size: 30px;
+}
+h1{
+    font-size: 45px;
+    color: #fff;
+}
+h2{
+    font-size: 35px;
+    color: #fff;
+}
+p{
+    font-size: 25px;
+    color: #fcfc;
+}
+.p{
+    font-size: 10px;
+    color: black;
+}
+
